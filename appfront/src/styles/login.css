@@ -1,0 +1,147 @@
+.container_login {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(237, 236, 236);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.container_form_login {
+    width: 446px;
+
+
+
+    background: #FCFCFC;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.logo_container_cadastro {
+    width: 166px;
+    height: 96px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7px;
+    line-height: 1px;
+    margin-top: 15px;
+
+
+    color: #252531;
+}
+
+.logo_imagem_cadastro {
+    Width: 57.84px;
+    Height: 57.73px;
+    margin-bottom: 10px;
+}
+
+.formulario_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.display_container {
+    display: flex;
+
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.input_login {
+    margin-top: 3px;
+    Width: 382px;
+    Height: 44px;
+    border: 1.5px solid #858585;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.formulario_login p {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.382174px;
+
+
+
+    color: #191919;
+
+}
+
+.boasvindas {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+
+    letter-spacing: -0.382174px;
+
+    color: #383842;
+}
+
+.btn_Login {
+    width: 112px;
+    height: 56px;
+    background: #B7005C;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background 0.5s;
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1);
+
+}
+
+.btn_Login:hover,
+.btn_Login:focus {
+    transform: scale(1.2);
+    background-color: #252531;
+}
+
+.paragrafo_direcionador {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: -0.382174px;
+
+    /* Cor de texto/#191919 */
+
+    color: #191919;
+
+}
+
+.link_direcionador {
+    cursor: pointer;
+    color: #B7005C;
+
+}
+
+.text-align {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

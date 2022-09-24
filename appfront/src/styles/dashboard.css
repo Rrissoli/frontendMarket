@@ -1,0 +1,150 @@
+.container_header {
+    width: 100%;
+    height: 90px;
+    background-color: #FDFDFD;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container_dashboard {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(237, 236, 236);
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.container_logo_header {
+    width: 400px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log_imagem_header {
+    width: 60px;
+    height: 59px;
+}
+
+
+.titulo_logo_header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28px;
+
+    color: #252531;
+}
+
+.container_options {
+    width: 400px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options p {
+
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px;
+
+    /* identical to box height */
+    letter-spacing: -0.382174px;
+
+    /* Cor de texto/383842 */
+    color: #383842
+}
+
+.btn_sale {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 8px;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 29px;
+
+    font-size: 9px;
+    background: #B7005C;
+    border-radius: 24px;
+}
+
+.container_list_products {
+
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+    color: #858585;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.squad_product {
+    Width: 222px;
+    height: 282px;
+    background-color: #FCFCFC;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding-top: 20px;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    letter-spacing: -0.382174px;
+
+    /* Cor de texto/#191919 */
+
+    color: #191919;
+}
+
+.img_squad {
+    width: 180px;
+    height: 180px;
+    margin-left: 20px;
+}
+
+.div_absolute {
+    margin-left: 20px;
+}
+
+.preco {
+    /* Headline/H4 */
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38px;
+    letter-spacing: -0.382174px;
+
+    /* Cores/#D10070 */
+
+    color: #D10070;
+}
